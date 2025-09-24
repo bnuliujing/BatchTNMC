@@ -1,6 +1,6 @@
 # BatchTNMC
 
-Welcome to `BatchTNMC`, a Python implementation for sampling 2D spin glasses using Tensor Network Monte Carlo (TNMC) [SciPost Phys. 14, 123 (2023)](https://scipost.org/10.21468/SciPostPhys.14.5.123), [Phys. Rev. B 111, 094201](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.111.094201) with GPU.
+Welcome to `BatchTNMC` [arXiv:2509.19006](https://arxiv.org/abs/2509.19006), a Python implementation for sampling 2D spin glasses using Tensor Network Monte Carlo (TNMC) [SciPost Phys. 14, 123 (2023)](https://scipost.org/10.21468/SciPostPhys.14.5.123), [Phys. Rev. B 111, 094201](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.111.094201) with GPU.
 This repository provides tools for generating RBIM (Random Bond Ising Model) instances, creating tensor network caches, and performing efficient sampling using boundary Matrix Product States (bMPS) techniques.
 
 ## Requirements
@@ -36,3 +36,20 @@ This is only for demonstration purposes, since it requires at least 52GB of GPU 
 
 See also `tutorial.ipynb` for a simple example on 2D Ising model.
 
+## Citation
+
+If you use this code, please cite our paper:
+
+**arXiv**: https://arxiv.org/abs/2509.19006
+
+```bibtex
+@misc{chen2025batchtnmc,
+      title={BatchTNMC: Efficient sampling of two-dimensional spin glasses using tensor network Monte Carlo}, 
+      author={Tao Chen and Jingtong Zhang and Jing Liu and Youjin Deng and Pan Zhang},
+      year={2025},
+      eprint={2509.19006},
+      archivePrefix={arXiv},
+      primaryClass={cond-mat.stat-mech},
+      url={https://arxiv.org/abs/2509.19006}, 
+}
+```
